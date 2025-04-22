@@ -1,0 +1,13 @@
+[project]
+name="qstatpy"
+version = "1.0"
+authors = [
+    {name="Andreas Hackl", email="andreas.hackl@ur.de"}
+]
+description = "Framework for doing Lattice QCD analyses"
+requires-python = ">=3.8"
+readme = "README.md"
+dependencies = [
+    "numpy", "jax", "scipy", 
+]
+license = { file = "LICENCE" }
